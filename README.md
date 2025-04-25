@@ -26,10 +26,6 @@ Este projeto consiste na criação de um layout moderno e responsivo, com foco e
 - Navegação fluida e intuitiva.
 - Carrossel com navegação automática e manual, otimizando a experiência do usuário.
 
-## 📷 Demonstração
-
-> *[🎥 Clique aqui para assistir à demonstração do projeto](https://youtu.be/Ey2tVS6eJds?si=V0DG07xk4n29lIZ9)*
-
 ## 📁 Como Executar o Projeto
 
 1. Clone este repositório:
@@ -39,3 +35,10 @@ Este projeto consiste na criação de um layout moderno e responsivo, com foco e
     ```bash
     cd nome-do-repositorio
 3. Abra o arquivo index.html em seu navegador.
+
+## 📷 Demonstração
+
+https://github.com/user-attachments/assets/aba1659d-4378-410e-b4e3-c543b02c02f5
+
+
+
