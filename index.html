@@ -1,0 +1,483 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Loja Online Avanti</title>
+  <link rel="stylesheet" href="css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.core.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/css/glide.theme.min.css">
+</head>
+<body>
+  <header>
+    <div class="status-bar">
+      <img src="figures/header/Left Side.svg" alt="left-side">
+      <img src="figures/header/Notch.svg" alt="notch" id="notch-icon">
+      <img src="figures/header/Right Side.svg" alt="right-side">
+    </div>
+    
+    <p class="discount-value-container">
+      Ganhe <span class="discount-value">R$10,00</span> de desconto no seu primeiro pedido. 
+      Utilize o cupom <span class="discount-code">DESCONTO10</span>
+    </p>
+
+    <div class="grid-container">
+      <div class="item1">
+        <img src="figures/header/Grupo 21089.png" alt="logo">
+      </div>
+      <div class="item2">
+        <div class="search-section">
+          <form class="search-form">
+            <input type="text" placeholder="Digite aqui o que você procura">
+            <button type="button" class="search-button">
+              <img src="figures/header/Caminho 20013.svg" alt="ícone de lupa" class="search-icon">
+            </button>
+          </form>
+          <div class="search-message"></div>
+        </div>
+      </div>
+      <div class="item3">
+          <div class="welcome-message">
+            <img src="figures/header/noun-person-5551340.svg" alt="person-icon">
+
+            <div>
+              <span>Olá</span>
+              <span>Nome Cliente!</span>
+            </div>
+          </div>
+      </div>
+      <div class="item4">
+          <div class="cart-wrapper">
+            <img src="figures/header/Grupo 19215.svg" alt="cart-icon">
+            <img src="figures/header/Grupo 19216.svg" alt="cart-quantity" class="cart-quantity">
+          </div>
+      </div>  
+      <div class="item5">
+        <div class="departaments-menu">
+          <div class="menu-burger-container">
+            <img src="figures/header/Grupo 19319.svg" alt="menu-burger">
+            <span>Todas as categorias</span>
+          </div>
+
+          <div class="all-category-container">
+            <img id="close-button-menu-mobile" src="figures/header/icon-menu-close.svg" alt="icon-menu-close" onclick="hideSidebar()">
+            
+            <div class="departament-list">
+              <ul>
+                <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+                  <li>
+                  <span>Departamento</span>
+                  <img src="figures/header/iconizer-iconmonstr-arrow-25.svg" alt="arrow-header">
+                  </li>
+              </ul>
+            </div>
+
+            <div class="category-list">
+              <div>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+              </div>
+
+              <div>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+              </div>
+
+              <div>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+                <span>Categoria</span>
+              </div>
+            </div>
+
+            <div class="all-category-image">
+              <img src="figures/main/segundo banner.png" alt="segundo-banner">
+
+              <div>
+                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+                <button>VER TODOS</button>
+              </div>
+            </div>
+          </div>
+
+          <div class="departament-container">
+            <div>
+              <span>Departamento</span>
+              <div class="category-list">
+                <div>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                </div>
+
+                <div>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                </div>
+
+                <div>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                  <span>Categoria</span>
+                </div>
+              </div>
+
+            </div>
+
+            <div class="all-category-image">
+              <img src="figures/main/segundo banner.png" alt="segundo-banner">
+
+              <div>
+                <p>Confira os Produtos <span>Que acabaram De chegar</span></p>
+                <button>VER TODOS</button>
+              </div>
+            </div>
+          </div>    
+
+          <ul class="last-list-item5">
+            <li><span class="departament-link">Departamento</span></li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+            <li>Departamento</li>
+          </ul>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="section-promo">
+      <img src="figures/main/Rectangle 10.png" alt="Banner promocional">
+      <div>
+        <h1><span>SUPER</span>SALE</h1>
+        <p>SELECTED ITEMS UP TO</p>
+        <h2>50%OFF</h2>
+      </div>
+    </section>
+
+    <section class="section-featured-products">
+      <div class="featured-header">
+        <span>Lançamentos</span>
+        <button>Ver mais</button>
+      </div>
+      
+      <div class="glide" id="carousel-products-1">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides" id="slides-container">
+            <!-- Os slides serão inseridos aqui pelo JavaScript -->
+          </ul>
+        </div>
+        
+        <div class="glide__arrows" data-glide-el="controls">
+          <img class="glide__arrow glide__arrow--left" data-glide-dir="<" src="figures/main/Grupo 21090.svg" alt="">
+          <img class="glide__arrow glide__arrow--right" data-glide-dir=">" src="figures/main/Grupo 18119.svg" alt="">
+        </div>
+
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <!-- Os bullets também serão gerados dinamicamente -->
+        </div>
+      </div>
+    </section>
+
+    <section class="section-about">
+      <img src="figures/main/image.png" alt="Xícara de café">
+      <article>
+        <h1>LOREM IPSUM</h1>
+        <p class="about-paragraph">
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+        <p class="about-paragraph">
+          Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-benefits">
+      
+      <img src="figures/main/segundo banner.png" alt="segundo-banner">
+     
+      <div>
+        <h2>LOREM IPSUM</h2>
+        <ul>
+          <li class="benefit-item">
+            <img src="figures/main/Circulo e Icone.png" alt="circulo-icone">
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+            </p>
+          </li>
+          <li class="benefit-item">
+            <img src="figures/main/Circulo e Icone.png" alt="circulo-icone">
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+            </p>
+          </li>
+          <li class="benefit-item">
+            <img src="figures/main/Circulo e Icone.png" alt="circulo-icone">
+            <p>
+              Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. 
+            </p>
+          </li>
+        </ul>  
+      </div>
+    </section>
+
+    <section class="section-about">
+      <img src="figures/main/image.png" alt="cup-photo">
+      <article>
+        <h1>LOREM IPSUM</h1>
+        <p class="about-paragraph">
+          Aenean massa. Cum sociis natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim.
+        </p>
+        <p class="about-paragraph">
+          Cras dignissim est et pellentesque tincidunt. Praesent bibendum quis velit a aliquam. Ut vestibulum turpis eget mi iaculis ullamcorper. Curabitur nec metus sed tortor sollicitudin porta nec eu enim. Ut fermentum scelerisque tortor mollis volutpat. Mauris iaculis magna nisl, vel porttitor augue placerat et.
+        </p>
+      </article>
+    </section>
+
+    <section class="section-featured-products" id="carrossel-2">
+      <div class="featured-header">
+        <span>Lançamentos</span>
+        <button>Ver mais</button>
+      </div>
+      
+      <div class="glide" id="carousel-products-2">
+        <div class="glide__track" data-glide-el="track">
+          <ul class="glide__slides" id="slides-container">
+            <!-- Os slides serão inseridos aqui pelo JavaScript -->
+          </ul>
+        </div>
+        
+        <div class="glide__arrows" data-glide-el="controls">
+          <img class="glide__arrow glide__arrow--left" data-glide-dir="<" src="figures/main/Grupo 21090.svg" alt="">
+          <img class="glide__arrow glide__arrow--right" data-glide-dir=">" src="figures/main/Grupo 18119.svg" alt="">
+        </div>
+
+        <div class="glide__bullets" data-glide-el="controls[nav]">
+          <!-- Os bullets também serão gerados dinamicamente -->
+        </div>
+      </div>
+    </section>
+    
+    <div class="contact-banner">
+      <picture>
+        <source media="(min-width: 992px)" srcset="figures/main/quarto-banner-desktop.png">
+        <img src="figures/main/quarto banner.png" alt="quarto-avanti">
+      </picture>
+      <div>
+        <p>Entre em contato conosco e verifique a disponibilidade para sua região!</p>
+      </div>
+    </div>
+
+    <section class="newsletter-section">
+      <p>Cadastre-se na nossa <span>newsletter</span></p>
+      <form action="#">
+        <input type="text" placeholder="Digite seu nome" class="input-field">
+        <input type="email" placeholder="Digite seu email" class="input-field">
+        <div class="form-checkbox">
+          <input type="checkbox" id="privacy-checkbox">
+          <label for="privacy-checkbox">Estou de acordo com a <span>Política de Privacidade</span></label>
+        </div>
+        <input type="submit" value="Cadastrar" class="submit-button">
+      </form>
+    </section>
+  </main>
+
+  <footer>
+    <section class="footer-top">
+      <div class="footer-top-container">
+        <div>
+          <div class="footer-logo">
+            <img src="figures/footer/Frame 14.svg" alt="logo" width=150>
+          </div>
+
+          <div class="footer-social-links" aria-label="Redes sociais">
+            <img src="figures/footer/instagram.svg" alt="instagram-logo">
+            <img src="figures/footer/facebook.svg" alt="facebook-logo">
+            <img src="figures/footer/youtube-logo.svg" alt="youtube-logo">
+            <img src="figures/footer/logo-tiktok-svgrepo-com.svg" alt="tiktok-logo">
+          </div>
+        </div>
+          
+        <div class="footer-links-group">
+          <div>
+            <h5>Institucional</h5>
+            <ul class="footer-list">
+              <li>Sobre Nós</li>
+              <li>Nossas Lojas</li>
+              <li>Privacidade e Segurança</li>
+              <li>Termos e Condições</li>
+            </ul>
+          </div>
+          <img src="figures/footer/iconmonstr-arrow-25.svg" alt="arrow" class="toggle-arrow">
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <h5>Central de ajuda</h5>
+            <ul class="footer-list">
+              <li>Fale Conosco</li>
+              <li>Frete e Entrega</li>
+              <li>Trocas e Devoluções</li>
+              <li>Formas de Pagamento</li>
+              <li>FAQ</li>
+            </ul>
+          </div>
+          <img src="figures/footer/iconmonstr-arrow-25.svg" alt="arrow" class="toggle-arrow">
+        </div>
+
+        <div class="footer-links-group">
+          <div>
+            <h5>Atendimento</h5>
+            <ul class="footer-list">
+              <li><strong>Telefone</strong>: (00) 1234-5678</li>
+              <li><strong>E-mail</strong>: exemplo@exemplo.com.br</li>
+              <li>
+                <strong>Horário de atendimento</strong>:
+                <div>Segunda a Sábado: 07h00 às 23h00</div>
+                <div>Domingos e Feriados: 07h00 às 21h00</div>
+              </li>
+            </ul>
+          </div>
+          <img src="figures/footer/iconmonstr-arrow-25.svg" alt="arrow" class="toggle-arrow">
+        </div>   
+      </div>
+    
+      <div class="footer-payment-methods">
+        <img src="figures/footer/amex.svg" alt="American Express">
+        <img src="figures/footer/União 32.svg" alt="Mastercard">
+        <img src="figures/footer/visa.svg" alt="Visa">
+        <img src="figures/footer/hipercard.svg" alt="Hipercard">
+        <img src="figures/footer/b.svg" alt="Elo">
+        <img src="figures/footer/b (1).svg" alt="Outro cartão">
+        <img src="figures/footer/paypal-seeklogo.com.svg" alt="PayPal">
+        <img src="figures/footer/União 332.svg" alt="Pix">
+        <img src="figures/footer/icon-boleto___ffe2ba684569d29f8e546b10457c48f8.svg" alt="Boleto">
+      </div>
+    </section>
+
+    <section class="footer-bottom">
+      <p>
+        Lorem ipsum dolor sit amet, consectetuer adipiscing elit, sed diam nonummy nibh euismod tincidunt ut laoreet dolore magna aliquam erat volutpat. Ut wisi enim ad minim veniam, quis nostrud exerci.
+      </p>
+      <div class="footer-double-container">
+        <div>
+          <img src="figures/footer/Group.svg" alt="encrypt-logo">
+          <img src="figures/footer/vtex-pci-200.png" alt="vtex-logo">
+        </div>
+
+        <div>
+           <img src="figures/footer/Frame 14.svg" alt="avanti-logo">
+          <img src="figures/footer/VTEX_Logo (1) 1.svg" alt="vtex-logo">
+        </div>
+      </div>
+    </section>
+  </footer>
+
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/Glide.js/3.6.0/glide.min.js"></script>
+  <script src="script.js" defer></script>
+</body>
+</html>

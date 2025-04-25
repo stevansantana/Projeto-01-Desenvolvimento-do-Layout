@@ -1,0 +1,14 @@
+:root {
+	/* Cores */
+	--primary-blue: #005cff;
+	--dark-blue: #00264e;
+	--darker-blue: #0043b8;
+	--purple: #6220c1;
+	--teal: #5ec0be;
+	--white: #ffffff;
+	--light-gray: #f5f5f5;
+	--medium-gray: #e9e9ea;
+	--dark-gray: #303030;
+	--text-gray: #656565;
+	--border-gray: #dddddd;
+}
