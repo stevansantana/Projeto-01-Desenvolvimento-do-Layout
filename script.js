@@ -195,6 +195,11 @@ function setupMenuToggle() {
   });
 }
 
+function hideAllCategoryContainer() {
+  const allCategoryContainer = document.querySelector(".all-category-container");
+  allCategoryContainer.style.display = "none";
+}
+
 // Inicializa tudo ao carregar o documento
 document.addEventListener("DOMContentLoaded", () => {
   ["carousel-products-1", "carousel-products-2"].forEach(initializeCarousel);
